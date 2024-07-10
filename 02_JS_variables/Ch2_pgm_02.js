@@ -22,3 +22,7 @@ score = 100;
  *    Repeat steps 1, 2 and 3.
  *
  */
+
+/* Answer */
+ 
+var score=150;
