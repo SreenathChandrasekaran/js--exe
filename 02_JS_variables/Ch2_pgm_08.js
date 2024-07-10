@@ -9,6 +9,8 @@ score = score + 50;
 console.log("New score: " + score);
 
 console.log("Way to go!");
+console.log("kumquat is a successful splat");
+score = score + 
 
 
 
