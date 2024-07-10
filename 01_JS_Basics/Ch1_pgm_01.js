@@ -16,3 +16,5 @@ console.log("Hello World!");
  * 4) Click Run.
  *
  */
+/* Answer */
+console.log("i love India");
