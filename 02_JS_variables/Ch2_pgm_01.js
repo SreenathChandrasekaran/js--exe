@@ -14,3 +14,7 @@ var score;
  * 3) Declare two more variables.
  *
  */
+
+/* Answer*/
+var num1;
+var num2;
