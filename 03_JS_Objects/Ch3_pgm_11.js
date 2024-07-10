@@ -1,6 +1,7 @@
 // Using a property in a calculation
 
 var player1;
+var player2;
 
 player1 = {
 	  name: "Max",
@@ -12,6 +13,21 @@ console.log(player1.name + " has scored " + player1.score);
 player1.score = player1.score + 50;
 
 console.log(player1.name + " has scored " + player1.score);
+
+player1.score = player1.score + player1.score * 10/100;
+
+console.log(player1.name + " has scored " + player1.score)
+
+player2 = {
+	name: "John",
+	score: 50
+}
+
+player2.score = player2.score + 15;
+
+console.log(player2.name + " has scored " + player2.score);
+
+console.log("Score of the players: " + (player1.score + player2.score));
 
 
 
