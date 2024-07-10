@@ -29,3 +29,8 @@ console.log(score);
  *    the new value of your variable.
  *
  */
+/* answer */
+var age = 21;
+console.log(age);
+age = 22;
+console.log(age)
