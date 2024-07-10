@@ -2,19 +2,29 @@
 
 var book1;
 var book2;
+var book3;
 
 book1 = {
 	title: "The Hobbit",
-	author: "J. R. R. Tolkien"
+	author: "J. R. R. Tolkien",
+	published: 1989
 };
 
 book2 = {
 	title: "Northern Lights",
-	author: "Philip Pullman"
+	author: "Philip Pullman",
+	published: 1992
 };
 
-console.log(book1.title + " by " + book1.author);
-console.log(book2.title + " by " + book2.author);
+book3 = {
+	title: "Harrypotter",
+	author: "J.K.Rowling",
+	published: 1999
+}
+
+console.log(book1.title + " by " + book1.author + " in " + book1.published);
+console.log(book2.title + " by " + book2.author + " in " + book2.published);
+console.log(book3.title + " by " + book3.author + " in " + book3.published);
 
 
 
