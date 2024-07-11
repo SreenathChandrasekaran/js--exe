@@ -14,7 +14,29 @@ console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
 
+var movie2;
 
+movie2 = {
+  title: "Titanic",
+  actors: "Steve smith, Elysse Perry",
+  directors: "James Cameron, David Warner"
+};
+
+console.log("Movie information for " + movie2.title);
+console.log("------------------------------");
+console.log("Actors: " + movie2.actors);
+console.log("Directors: " + movie2.directors);
+console.log("---------------------------------");
+
+var blog;
+
+blog = {
+  title: "Stocks reach record breaking price",
+  author: "Sivakumar",
+  news: "The mumbai stock exchange see a huge rise owing to the election results"
+};
+
+console.log(blog);
 
 /* Further Adventures
  *

@@ -3,13 +3,20 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello \n Boss");
 };
 
 sayHello();
 sayHello();
 sayHello();
 
+var print;
+
+print = function() {
+	console.log("H\ne\nl\nl\no\nW\no\nr\nl\nd")
+};
+
+print();
 
 
 /* Further Adventures

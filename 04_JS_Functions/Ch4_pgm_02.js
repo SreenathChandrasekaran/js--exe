@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
@@ -22,6 +23,12 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+movie4 = {
+  title: "Titanic",
+  actors: "Paul Walker, Chris Hemsworth",
+  directors: "Tont lee"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
@@ -39,6 +46,39 @@ console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
+
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+
+var event1;
+var event2;
+var event3;
+
+event1 = {
+    date: 2024-10-25,
+    show: "Music",
+    place: "Coimbatore"
+};
+
+event2 = {
+    date: 2024-5-18,
+    show: "Dance",
+    place: "Nilgiris"
+};
+
+event3 = {
+  date: 2024-5-19,
+  show: "Drama",
+  place: "Tiruppur"
+};
+
+console.log(event1);
+console.log(event2);
+console.log(event3);
+
 
 
 

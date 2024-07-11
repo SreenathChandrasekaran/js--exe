@@ -10,6 +10,12 @@ movie1 = {
     directors: "Pete Doctor, Ronaldo Del Carmen"
 };
 
+movie2 = {
+  title: "Titanic",
+  actors: "Will Smith",
+  directors: "Lokesh Kanagaraj"
+};
+
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
   console.log("------------------------------");
@@ -18,7 +24,9 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-movie = movie1;
+movie = movie2;
+
+
 
 showMovieInfo();
 
