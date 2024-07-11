@@ -12,6 +12,8 @@ player1.attempted = 2;
 player1.correct = 2;
 player1.score = 60;
 
+console.log(player1);
+
 
 
 /* Further Adventures
