@@ -1,6 +1,8 @@
 // Using the square function
 
 var square;
+var cube;
+var squareRoot;
 
 square = function (numberToSquare) {
   var result;
@@ -8,10 +10,27 @@ square = function (numberToSquare) {
   console.log(numberToSquare + " * " + numberToSquare + " = " + result);
 };
 
+cube = function (numberToCube){
+  var result1;
+  result1 = numberToCube * numberToCube * numberToCube;
+  console.log(numberToCube + " * " + numberToCube + " * " + numberToCube + " = " + result1);
+};
+
+squareRoot = function (num){
+   console.log("The Square Root of Number is "+ Math.sqrt(num));
+};
+
 square(10);
 square(-2);
 square(1111);
 square(0.5);
+
+cube(10);
+cube(-2);
+cube(1111);
+cube(0.5);
+
+squareRoot(9);
 
 
 

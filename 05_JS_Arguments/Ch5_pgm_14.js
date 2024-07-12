@@ -3,7 +3,7 @@
 var showPlayerName = function (playerName) {
     console.log(playerName);
 };
-
+=
 var showPlayerHealth = function (playerName, playerHealth) {
     console.log(playerName + " has health " + playerHealth);
 };
