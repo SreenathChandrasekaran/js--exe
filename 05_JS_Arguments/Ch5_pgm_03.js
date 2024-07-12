@@ -3,10 +3,12 @@
 var showMessage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: " + message + " by Sanjay ");
 };
 
 showMessage("It's full of stars!");
+showMessage("It's full of dark!");
+showMessage("It's full of animal!");
 
 
 
