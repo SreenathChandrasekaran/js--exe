@@ -7,8 +7,8 @@ showPlayerName = function (playerName) {
     console.log(playerName.length);
 };
 
-showPlayerName("The player's name is Kandra");
-showPlayerName("The player's name is Dax");
+showPlayerName("Kandra");
+showPlayerName("Dax");
 
 
 
