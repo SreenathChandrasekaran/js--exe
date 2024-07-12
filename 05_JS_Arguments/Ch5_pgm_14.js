@@ -12,17 +12,22 @@ var showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
 };
 
+var showLine = function(a,b){
+    let line = "--------------------";
+    console.log(line.substring(a,b));
+}
+
 var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     console.log("");
-
+    
     showPlayerName(playerName);
 
-    console.log("----------------------------");
+    showLine(0,5);
 
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
 
-    console.log("----------------------------");
+    showLine(0,15);
     console.log("");
 };
 
