@@ -30,7 +30,7 @@ console.log("---------------------------------");
 
 var blog;
 
-blog = {
+blog = { 
   title: "Stocks reach record breaking price",
   author: "Sivakumar",
   news: "The mumbai stock exchange see a huge rise owing to the election results"
