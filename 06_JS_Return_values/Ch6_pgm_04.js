@@ -12,8 +12,22 @@ var sum = add(50, 23);
 
 console.log(sum);
 
+var sum = add(50, 100);
+
+console.log(sum);
+
+console.log("The sum of 50 and 23 is " + add(50,23));
+
+console.log("The sum of three numbers 20,40,60 is " + add(add(20,40),60));
+
+var three = function (number1,number2,number3) {
+	 var total = number1 + number2 + number3;
+	 return total;
+};
 
 
+
+console.log(three(50,20,30));
 
 
 /* Further Adventures
