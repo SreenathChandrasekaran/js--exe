@@ -4,7 +4,7 @@ var showPlayerName;
 
 showPlayerName = function (playerName) {
     console.log("The player's name is " + playerName);
-    console.log("The Nmae lenght is " + playerName.length);
+    console.log("The Name length is " + playerName.length);
 };
 
 showPlayerName("Kandra");
