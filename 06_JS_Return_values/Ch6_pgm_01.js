@@ -2,6 +2,7 @@
 
 var getMessage;
 var response;
+var getMyMessage;
 
 getMessage = function () {
     return "I’m going on an adventure!";
@@ -10,6 +11,14 @@ getMessage = function () {
 response = getMessage();
 
 console.log(response);
+
+getMyMessage = function() {
+    return "I live in India.";
+};
+
+console.log(getMessage());
+
+console.log(getMyMessage());
 
 
 
