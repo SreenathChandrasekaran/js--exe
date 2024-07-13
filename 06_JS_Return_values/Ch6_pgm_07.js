@@ -3,12 +3,20 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+    return "==== " + playerName + " ====";
 };
 
 console.log(getPlayerName("Kandra"));
 
+console.log(getPlayerName("Kiki"));
 
+console.log(getPlayerName("Mahesha"));
+
+getPlayerName = function (playerName) {
+    return "|\n"+"| "+playerName +"\n"+"|\n"
+}
+
+console.log(getPlayerName("Jahver"));
 
 /* Further Adventures
  *
