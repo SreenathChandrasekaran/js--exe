@@ -6,6 +6,14 @@ var charIndex = message.indexOf("M");
 
 console.log(message.substr(charIndex, 3));
 
+console.log(message.indexOf("go"));
+
+var charIndex = message.indexOf("c");
+
+console.log(message.substr(charIndex,6));
+
+console.log(message.lastIndexOf("oo"));
+
 
 
 /* Further Adventures
