@@ -5,6 +5,18 @@ var bigPlanet = planet.toUpperCase();
 
 console.log(planet + " becomes " + bigPlanet);
 
+var getBig = function (planet) {
+    return planet.toUpperCase();
+};
+
+console.log(getBig("saturn"));
+
+var getSmall = function (planet) {
+    return planet.toLowerCase();
+};
+
+console.log(getSmall("EARTH"));
+
 
 
 /* Further Adventures
