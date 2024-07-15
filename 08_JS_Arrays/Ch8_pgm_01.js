@@ -2,13 +2,17 @@
 
 var scores;
 var names;
+var akaScores;
 
-scores = [ 3, 1, 8, 2 ];
-names = [ "Kandra", "Dax", "Blinky" ];
+scores = [ 3, 1, 8, 2, 6 ];
+names = [ "Kandra", "Dax", "Blinky", "Messi" ];
+
+akaScores = scores;
 
 console.log(scores);
 console.log(names);
 
+console.log(scores);
 
 
 /* Further Adventures
